@@ -71,7 +71,7 @@ public class Poll extends UserDateAudit {
         this.choices = choices;
     }
 
-    private void addChoice(Choice choice) {
+    public void addChoice(Choice choice) {
         choices.add(choice);
         choice.setPoll(this);
     }

@@ -18,17 +18,17 @@ import java.time.Instant;
 )
 public abstract class DateAudit implements Serializable {
     @CreatedDate
-    private Instant cratedAt;
+    private Instant createdAt;
 
     @LastModifiedDate
     private Instant updatedAt;
 
-    public Instant getCratedAt() {
-        return cratedAt;
+    public Instant getCreatedAt() {
+        return createdAt;
     }
 
-    public void setCratedAt(Instant cratedAt) {
-        this.cratedAt = cratedAt;
+    public void setCreatedAt(Instant cratedAt) {
+        this.createdAt = cratedAt;
     }
 
     public Instant getUpdatedAt() {
