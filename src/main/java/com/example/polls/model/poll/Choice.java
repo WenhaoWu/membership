@@ -1,4 +1,4 @@
-package com.example.polls.model;
+package com.example.polls.model.poll;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotBlank;

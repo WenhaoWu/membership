@@ -1,8 +1,12 @@
 package com.example.polls.controller;
 
 import com.example.polls.exception.ResourceNotFoundException;
-import com.example.polls.model.User;
-import com.example.polls.payload.*;
+import com.example.polls.model.user.User;
+import com.example.polls.payload.common.PagedResponse;
+import com.example.polls.payload.poll.PollResponse;
+import com.example.polls.payload.user.UserIdentityAvailability;
+import com.example.polls.payload.user.UserProfile;
+import com.example.polls.payload.user.UserSummary;
 import com.example.polls.repository.PollRepository;
 import com.example.polls.repository.UserRepository;
 import com.example.polls.repository.VoteRepository;

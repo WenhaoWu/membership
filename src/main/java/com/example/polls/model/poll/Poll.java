@@ -1,4 +1,4 @@
-package com.example.polls.model;
+package com.example.polls.model.poll;
 
 import com.example.polls.model.audit.UserDateAudit;
 import org.hibernate.annotations.BatchSize;

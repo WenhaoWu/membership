@@ -1,6 +1,6 @@
 package com.example.polls.security;
 
-import com.example.polls.model.User;
+import com.example.polls.model.user.User;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

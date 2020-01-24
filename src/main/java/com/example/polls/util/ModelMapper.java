@@ -1,10 +1,10 @@
 package com.example.polls.util;
 
-import com.example.polls.model.Poll;
-import com.example.polls.model.User;
-import com.example.polls.payload.ChoiceResponse;
-import com.example.polls.payload.PollResponse;
-import com.example.polls.payload.UserSummary;
+import com.example.polls.model.poll.Poll;
+import com.example.polls.model.user.User;
+import com.example.polls.payload.poll.ChoiceResponse;
+import com.example.polls.payload.poll.PollResponse;
+import com.example.polls.payload.user.UserSummary;
 
 import java.time.Instant;
 import java.util.List;

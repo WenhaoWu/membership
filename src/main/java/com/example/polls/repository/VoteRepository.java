@@ -1,7 +1,7 @@
 package com.example.polls.repository;
 
-import com.example.polls.model.ChoiceVoteCount;
-import com.example.polls.model.Vote;
+import com.example.polls.model.poll.ChoiceVoteCount;
+import com.example.polls.model.poll.Vote;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

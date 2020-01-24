@@ -1,4 +1,4 @@
-package com.example.polls.model;
+package com.example.polls.model.poll;
 
 public class ChoiceVoteCount {
     private Long choiceId;

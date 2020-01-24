@@ -1,7 +1,7 @@
 package com.example.polls.security;
 
 import com.example.polls.exception.ResourceNotFoundException;
-import com.example.polls.model.User;
+import com.example.polls.model.user.User;
 import com.example.polls.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;

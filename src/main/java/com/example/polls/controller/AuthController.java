@@ -1,13 +1,13 @@
 package com.example.polls.controller;
 
 import com.example.polls.exception.ApiException;
-import com.example.polls.model.Role;
-import com.example.polls.model.RoleName;
-import com.example.polls.model.User;
-import com.example.polls.payload.ApiResponse;
-import com.example.polls.payload.JwtAuthenticationResponse;
-import com.example.polls.payload.LoginRequest;
-import com.example.polls.payload.SignUpRequest;
+import com.example.polls.model.user.Role;
+import com.example.polls.model.user.RoleName;
+import com.example.polls.model.user.User;
+import com.example.polls.payload.common.ApiResponse;
+import com.example.polls.payload.auth.JwtAuthenticationResponse;
+import com.example.polls.payload.auth.LoginRequest;
+import com.example.polls.payload.auth.SignUpRequest;
 import com.example.polls.repository.RoleRepository;
 import com.example.polls.repository.UserRepository;
 import com.example.polls.security.JwtTokenProvider;
